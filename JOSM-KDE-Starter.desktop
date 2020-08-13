@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=cd ~ && wget -N https://josm.openstreetmap.de/josm-tested.jar || kdialog --passivepopup 'Prüfung oder Download der aktuellen JOSM-Version fehlgeschlagen. Möglicherweise veraltete Version wird gestartet.' --title 'JOSM-Starter' --icon '/path/to/JOSM.png' && kdialog --passivepopup 'Starte JOSM...' --title 'JOSM-Starter' --icon '/path/to/JOSM.png' ; java -jar josm-tested.jar
+GenericName=Java OpenStreetMap Editor
+Icon=/path/to/JOSM.png
+Name=JOSM
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
